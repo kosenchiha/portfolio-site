@@ -1,0 +1,42 @@
+body {
+  font-family: "Montserrat";
+}
+#title {
+  height: 100vh;
+  background-color: #06bc9b;
+  color: #fff;
+}
+
+* {
+  /* border: solid black; */
+}
+
+.container-fluid {
+  height: 100%;
+  padding: 3% 15%;
+}
+
+h1 {
+  font-size: 7vh;
+  line-height: 1.5;
+  font-family: "Montserrat-Black";
+}
+
+.nav-item {
+  padding: 0 15px;
+}
+
+nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light";
+}
+
+#profile-picture {
+  display: block;
+  height: 30vh;
+  border-radius: 10%;
+}
+
+.a {
+  margin-top: 15%;
+}
