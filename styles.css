@@ -22,6 +22,10 @@ h1 {
   font-family: "Montserrat-Black";
 }
 
+h3 {
+  font-family: "Montserrat-Bold";
+}
+
 .nav-item {
   padding: 0 15px;
 }
@@ -39,4 +43,29 @@ nav-link {
 
 .a {
   margin-top: 15%;
+}
+
+/* About Section */
+
+#about {
+  height: 100vh;
+  padding: 3% 15%;
+}
+
+.about-box {
+  text-align: center;
+  padding: 5%;
+}
+
+.about-box p {
+  color: #8f8f8f;
+}
+
+.about-box i {
+  color: #06bc9b;
+  margin-bottom: 7%;
+}
+
+.about-box i:hover {
+  color: #1ba49c;
 }
