@@ -8,9 +8,10 @@ body {
   color: #fff;
 }
 
+/* 
 * {
-  /* border: solid black; */
-}
+  border: solid black;
+} */
 
 .container-fluid {
   height: 100%;
@@ -45,18 +46,17 @@ h3 {
 
 .nav-link:hover {
   font-weight: bold;
-  color: #fff;
 }
 
 .navbar-dark .navbar-toggler {
-  color: rgb(255, 255, 255);
-  border-color: rgb(255, 255, 255);
+  color: #fff;
+  border-color: #fff;
 }
 
 .navbar-dark .navbar-nav .nav-link,
 .navbar-dark .navbar-nav .nav-link:focus,
 .navbar-dark .navbar-nav .nav-link:hover {
-  color: rgba(255, 255, 255);
+  color: #fff;
 }
 
 #profile-picture {
@@ -110,7 +110,20 @@ h3 {
 }
 
 .certificate {
-  /* width: 40%; */
   height: 50vh;
   margin: auto;
+}
+
+/* Projects Section  */
+
+#projects {
+  height: 100vh;
+  padding: 5% 15%;
+}
+
+#contacts {
+  /* height: 100vh; */
+  /* padding: 3% 15%; */
+  text-align: center;
+  background-color: #06bc9b;
 }
