@@ -4,6 +4,7 @@ body {
 #title {
   height: 100vh;
   background-color: #06bc9b;
+  background-image: url("https://www.transparenttextures.com/patterns/always-grey.png");
   color: #fff;
 }
 
@@ -36,9 +37,26 @@ h3 {
   padding: 0 15px;
 }
 
-nav-link {
+.nav-link {
   font-size: 1.2rem;
   font-family: "Montserrat-Light";
+  color: #fff;
+}
+
+.nav-link:hover {
+  font-weight: bold;
+  color: #fff;
+}
+
+.navbar-dark .navbar-toggler {
+  color: rgb(255, 255, 255);
+  border-color: rgb(255, 255, 255);
+}
+
+.navbar-dark .navbar-nav .nav-link,
+.navbar-dark .navbar-nav .nav-link:focus,
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: rgba(255, 255, 255);
 }
 
 #profile-picture {
@@ -83,6 +101,7 @@ nav-link {
   padding: 3% 15%;
   text-align: center;
   background-color: #06bc9b;
+  background-image: url("https://www.transparenttextures.com/patterns/always-grey.png");
   color: #fff;
 }
 
