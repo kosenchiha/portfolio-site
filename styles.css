@@ -29,6 +29,7 @@ h2 {
   font-size: 3rem;
   line-height: 1.5;
   text-align: center;
+  margin-bottom: 5%;
 }
 
 h3 {
@@ -122,18 +123,16 @@ h3 {
   padding: 5% 15%;
 }
 
-.projects-wrapper {
+/* .projects-wrapper {
   margin-top: 5%;
   margin-left: 0px;
   margin-right: 0px;
-}
+} */
 
 .project-pic {
-  /* opacity: 0.9; */
   filter: grayscale(100%);
 }
 .project-pic:hover {
-  /* opacity: 0.8; */
   filter: grayscale(10%);
 }
 
@@ -146,6 +145,7 @@ h3 {
   background-color: #1ba49c;
   color: #fff;
 }
+
 /*Contacts Section  */
 
 #contacts {
