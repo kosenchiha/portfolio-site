@@ -28,6 +28,7 @@ h2 {
   font-family: "Montserrat-Bold";
   font-size: 3rem;
   line-height: 1.5;
+  text-align: center;
 }
 
 h3 {
@@ -120,6 +121,32 @@ h3 {
   height: 100vh;
   padding: 5% 15%;
 }
+
+.projects-wrapper {
+  margin-top: 5%;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.project-pic {
+  /* opacity: 0.9; */
+  filter: grayscale(100%);
+}
+.project-pic:hover {
+  /* opacity: 0.8; */
+  filter: grayscale(10%);
+}
+
+.btn-code {
+  background-color: #06bc9b;
+  color: #fff;
+}
+
+.btn-code:hover {
+  background-color: #1ba49c;
+  color: #fff;
+}
+/*Contacts Section  */
 
 #contacts {
   /* height: 100vh; */
