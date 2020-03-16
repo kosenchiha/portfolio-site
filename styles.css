@@ -1,6 +1,23 @@
 body {
   font-family: "Montserrat";
 }
+
+.go-up {
+  position: fixed;
+  background-color: #06bc9b;
+  box-shadow: 0 0 10px 0 #777 inset, 0 0 10px 4px #777777;
+  bottom: 3%;
+  right: 3%;
+  font-size: 12px;
+  padding: 7px;
+}
+.go-up a {
+  color: #fff;
+}
+.go-up:hover {
+  background-color: #1ba49c;
+}
+
 #title {
   height: 100vh;
   background-color: #06bc9b;
@@ -85,6 +102,7 @@ h3 {
 
 .about-box p {
   color: #8f8f8f;
+  line-height: 1.5;
 }
 
 .about-box i {
@@ -181,5 +199,9 @@ h3 {
   #about {
     height: auto;
     /* padding-bottom: 20% */
+  }
+  .about-skills p {
+    display: inline;
+    padding-right: 10px;
   }
 }
