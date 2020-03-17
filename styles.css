@@ -29,11 +29,6 @@ body {
   color: #fff;
 }
 
-/* 
-* {
-  border: solid black;
-} */
-
 .container-fluid {
   height: 100%;
   padding: 3% 15%;
@@ -141,7 +136,7 @@ h3 {
 /* Projects Section  */
 
 #projects {
-  height: 100vh;
+  /* height: 100vh; */
   padding: 5% 15%;
 }
 
@@ -150,6 +145,10 @@ h3 {
   margin-left: 0px;
   margin-right: 0px;
 } */
+.project-card {
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
 
 .project-pic {
   filter: grayscale(100%);
@@ -167,6 +166,44 @@ h3 {
   background-color: #1ba49c;
   color: #fff;
 }
+
+.btn-see-more {
+  display: block;
+  margin: 15px auto;
+}
+.card-btns-display {
+  display: flex;
+  align-items: flex-end;
+}
+
+.card-btns-display a,
+.card-btns-display button {
+  margin-right: 5px;
+}
+
+#collapseExample {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.extra-project1 {
+  background-image: url("images/projects/broca.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.extra-project p,
+.extra-project h5 {
+  background: #fff;
+  /* border: solid red; */
+  /* visibility: hidden; */
+}
+/*
+.extra-project:hover {
+  border: solid red;
+  visibility: visible;
+} */
 
 /*Contacts Section  */
 
@@ -207,5 +244,17 @@ h3 {
   .about-skills p {
     display: inline;
     padding-right: 10px;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+}
+@media (max-width: 650px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+  h2 {
+    font-size: 2rem;
   }
 }
